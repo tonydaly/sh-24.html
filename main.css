@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+nav {
+  background-color: #FFC300;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 2rem 0.5rem;
+  font-size: 1rem;
+}
+
+li {
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.25rem;
+  border-color: #fff;
+}
+
+li.completed {
+  border-color: rgba(0,0,0,.7);
+}
+
+li a {
+  width: 100%;
+  display: block;
+  color: rgba(0,0,0,.7);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li:first-child a {
+  text-align: left;
+}
+
+li:last-child a {
+  text-align: right;
+}
+
+li:hover {
+  border-color: rgba(0, 0, 0, .7);
+}
